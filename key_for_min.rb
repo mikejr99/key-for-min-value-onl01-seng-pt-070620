@@ -4,11 +4,13 @@ require 'pry'
 def key_for_min_value(name_hash)
   checknum = 0 
   key = nil
+  
   name_hash.each do |name, num|
+    
     if checknum = 0 || num < checknum
       checknum = num
       key = name
-      binding.pry
+      
     end
   end
   key
