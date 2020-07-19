@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
     if checknum = 0 || num < checknum
       checknum = num
       key = name
+      binding.pry
     end
   end
   key
